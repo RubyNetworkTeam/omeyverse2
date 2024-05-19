@@ -1,0 +1,30 @@
+{
+  "name": "omeyverse2",
+  "version": "1.0.0",
+  "main": "./dist/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "node --env-file=.env dist/index.js",
+    "dev": "node --watch --env-file=.env dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hono/node-server": "^1.11.1",
+    "hono": "^4.3.7",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^20.12.12"
+  },
+  "peerDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
