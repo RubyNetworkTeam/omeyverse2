@@ -4,7 +4,8 @@ import { Logger } from "../utils/logger.js";
 const sequelizeConnection = new Sequelize(
     process.env["DATABASE_NAME"], process.env["DATABASE_USERNAME"], process.env["DATABASE_PASSWORD"], {
         dialect: "postgres",
-        host: process.env["DATABASE_HOST"]
+        host: process.env["DATABASE_HOST"],
+        port: Number(process.env["DATABASE_PORT"]) ?? 5432
     }
 )
 

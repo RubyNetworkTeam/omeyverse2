@@ -33,7 +33,7 @@
 <p>&copy</p> OmeyCorporation - RubyNetwork - CarlosNuñezMX
 <center>
     <img src="docs/ruby_logo.webp"/>
-    <img src="docs/menu-logo.png">
+    <img src="docs/menu-logo.png"/>
 </center>
 
 **<center>Feedback? We want to see you in <a href="https://discord.gg/Uy6zyaY6sw">Discord</a></center>**
