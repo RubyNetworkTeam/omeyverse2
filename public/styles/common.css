@@ -1,18 +1,14 @@
-@font-face {
-    font-family: "MiiverseIcons";
-    src: url("/public/fonts/MiiverseSymbols-Regular.woff");
-    src: url("/public/fonts/MiiverseSymbols-Regular.eot") format('embedded-opentype'), url("/public/fonts/MiiverseSymbols-Regular.woff") format('woff'), url("/public/fonts/MiiverseSymbols-Regular.ttf") format('truetype');
-    font-weight: 400;
-    font-style: normal;
+@charset 'UTF-8';
+:root{
+    --primary: #5dc007;
+    --textColor: #757575;
 }
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    color: #323232;
+    color: #757575;
 }
 
 body {
@@ -23,6 +19,10 @@ body {
     position: relative;
 }
 
-.miiverse_icon {
-    font-family: "MiiverseIcons", sans-serif !important;
+aside#sidemenu ul li img{
+    max-width: 64px;
+}
+
+li a, a {
+    text-decoration: none;
 }

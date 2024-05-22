@@ -3,24 +3,48 @@
     display: none !important;
 }
 
-aside#sidemenu ul{
+body{
     display: flex;
-    flex-direction: column;
-    list-style: none;
+    max-width: 80%;
+    margin: 0 auto;
 }
+
 aside#sidemenu{
-    position: fixed;
-    top: 25%;
-    left: 5%;
-    padding: 5vh;
-    width: fit-content;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    background-color: white;
+    width: 25%;
+    height: fit-content;
+    position: sticky;
+    top: 15%;
 }
 
-aside#sidemenu ul li{
+aside#sidemenu nav{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+aside#sidemenu nav h1{
+    display: none;
+}
+aside#sidemenu ul li {
+    display: grid;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px 15px;
+    grid-template-columns: 10fr 2fr;
+}
+aside#sidemenu ul li a{
+    display: grid;
+    align-content: center;
+    grid-template-columns: 2fr 8fr;
 }
 
-aside#sidemenu ul li a{
-    padding-left: 15px;
-    text-decoration: none;
+aside#sidemenu ul li a > *{
+    align-self: center;
+}
+aside#sidemenu ul li a img {
+    width: 24px;
 }
