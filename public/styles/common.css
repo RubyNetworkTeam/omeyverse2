@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "MiiverseIcons";
+    src: url("/public/fonts/MiiverseSymbols-Regular.woff");
+    src: url("/public/fonts/MiiverseSymbols-Regular.eot") format('embedded-opentype'), url("/public/fonts/MiiverseSymbols-Regular.woff") format('woff'), url("/public/fonts/MiiverseSymbols-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #323232;
+}
+
+body {
+    font-family: sans-serif;
+    background: #eeeeee url('/public/images/back.png');
+    color: #323232;
+    line-height: 1.5;
+    position: relative;
+}
+
+.miiverse_icon {
+    font-family: "MiiverseIcons", sans-serif !important;
+}

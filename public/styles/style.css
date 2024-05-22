@@ -1,0 +1,27 @@
+aside#sidemenu {
+    background-color: #fff;
+    border-radius: 0px 30px 30px 0px;
+    max-width: 15%;
+    height: 100%;
+    -webkit-box-shadow: 18px 0px 20px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 18px 0px 20px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 18px 0px 20px -13px rgba(0, 0, 0, 0.75);
+}
+
+aside#sidemenu ul {
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+aside#sidemenu ul li {
+    height: 20%;
+    display: -webkit-box;
+    justify-content: center;
+    -webkit-justify-content: -webkit-center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}

@@ -1,0 +1,26 @@
+/** hides exit button when offdevice view */
+#button-Exit{
+    display: none !important;
+}
+
+aside#sidemenu ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+aside#sidemenu{
+    position: fixed;
+    top: 25%;
+    left: 5%;
+    padding: 5vh;
+    width: fit-content;
+}
+
+aside#sidemenu ul li{
+    display: flex;
+}
+
+aside#sidemenu ul li a{
+    padding-left: 15px;
+    text-decoration: none;
+}
