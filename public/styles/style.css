@@ -32,7 +32,7 @@ aside#sidemenu ul li {
     -webkit-box-pack: center;
 }
 
-nav{
+nav {
     background-color: #a7403a;
     position: fixed;
     width: 100%;
@@ -40,11 +40,12 @@ nav{
     padding: 10px;
     padding-left: 150px;
 }
-nav img.omeyLogo{
+
+nav img.omeyLogo {
     display: none;
 }
 
-aside#sidemenu ul li{
+aside#sidemenu ul li {
     display: -webkit-box;
     justify-content: center;
     -webkit-justify-content: -webkit-center;
@@ -53,20 +54,20 @@ aside#sidemenu ul li{
     -webkit-box-pack: center;
 }
 
-aside#sidemenu ul li a{
+aside#sidemenu ul li a {
     display: table;
     text-align: center;
 }
 
-aside#sidemenu ul li img{
+aside#sidemenu ul li img {
     margin-bottom: 2vh;
 }
 
-nav h1{
+nav h1 {
     color: #fff;
 }
 
-ul .arrow{
+ul .arrow {
     display: none;
 }
 
